@@ -17,7 +17,7 @@
                     <?php endif;?>     
                    <a href="<?php the_permalink();?>">
                     <?php if(has_post_thumbnail()):
-                    $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),'' );
+                    $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
      echo '<img width="100%" src="' . $image_src[0] . '">';
                     endif;
                     ?>

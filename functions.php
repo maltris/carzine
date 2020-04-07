@@ -104,8 +104,8 @@ if (!isset( $content_width)):
     $content_width = 765;     
 endif;
 
-add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
+set_post_thumbnail_size( '760','250,',true );
 add_image_size('featured_post_image','760','250,',true);
 add_image_size('latest-post-image','375','9999',true);
 add_theme_support('automatic-feed-links');
