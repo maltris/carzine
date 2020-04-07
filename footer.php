@@ -60,8 +60,9 @@
                    <?php echo wp_kses_post(carzine_option('copyright_text',OPTIONS_PREFIX.'general',''));?>
                 <?php else: ?>
                     <p>
-                    <a class="text-center" href="<?php echo esc_url( __( 'http://www.takimithemes.com', 'carzine' ) ); ?>">
-                    <?php printf( __( 'Carzine ', 'carzine' )); ?></a> Theme, Powered by WordPress and sponsored by <a href="<?php echo esc_url('https://www.sdm.gr'); ?>" target="_blank"><?php echo esc_html__('SDM - Digital Marketing Agency','carzine'); ?></a>. Extended and cleaned up by <a href="https://autotagebuch.net/" target="_blank">autotagebuch.net</a>.
+                        <a class="text-center" href="<?php echo esc_url( __( 'https://takimithemes.com', 'carzine' ) ); ?>"><?php printf( __( 'Carzine ', 'carzine' )); ?> Theme</a>
+                        Powered by WordPress and sponsored by <a href="<?php echo esc_url('https://www.sdm.gr'); ?>" target="_blank"><?php echo esc_html__('SDM - Digital Marketing Agency','carzine'); ?></a>.
+                        Extended and cleaned up by <a href="<?php echo esc_url( __( 'https://autotagebuch.net/', 'carzine' ) ); ?>" target="_blank">autotagebuch.net</a>.
                     </p>
                 <?php endif;?>
                 </div>
