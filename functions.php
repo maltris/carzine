@@ -1,11 +1,11 @@
-<?php 
+<?php
 /*************************************************************
 * MAIN FUNCTIONS FILE FOR THE CAR BLOG THEME
 *
 ** This is the main functions.php file for this theme.
-** Please do not modify it unless you are quite 
-** sure what you are doing. You can always have support / premium support 
-** following this url : http://example.com/
+** Please do not modify it unless you are quite
+** sure what you are doing.
+** following this url : https://github.com/maltris/carzine
 *
 ** TABLE OF CONTENTS
 ** - THEME CONSTANTS
