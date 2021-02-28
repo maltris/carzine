@@ -6,9 +6,8 @@ get_header();?>
         <div class="row">
             <div class="col-md-12">
                 <div id="breadcrumbs_and_title">
-                <?php $search_term = get_query_var('s');?>
                  <h1><?php echo __('Results for Search Term: ', 'carzine');?>"
-                 <?php echo $search_term; ?>"</h1>
+                 <?php echo get_search_query(); ?>"</h1>
                 </div>
             </div>
         </div>
