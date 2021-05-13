@@ -130,7 +130,7 @@ msgid "+More"
 msgstr ""
 
 #: theme_includes/carzine_theme_functions.php:50
-msgid "carzine General"
+msgid "General"
 msgstr ""
 
 #: theme_includes/carzine_theme_functions.php:51

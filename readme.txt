@@ -6,7 +6,7 @@ CarZine is distributed under the terms of the GNU GPL-2.0+
 -----------------------------------------------
 Scripts
 -----------------------------------------------
-All scripts in CarZine Theme are licenced under the terms of the 
+All scripts in CarZine Theme are licenced under the terms of the
 GNU GPL with the exception of Twitter Bootstrap boilerplate and respond.js and
 which are distributed under the MIT Licence.
 
@@ -27,7 +27,7 @@ Images for demo content. These Images are not bundled with the theme!
 6.https://www.flickr.com/photos/nrmadriversseat/7108054917   - Public Domain CC0
 
 
-All other images and photographs + screenshot.png- in CarZine are our own 
+All other images and photographs + screenshot.png- in CarZine are our own
 creation and are licensed under the terms of the GNU GPL-2.0+.
 -----------------------------------------------
 Fonts
@@ -51,7 +51,7 @@ Initial Release
 = 1.0.1 =
 Minor updates- screenshot.png update
 = 1.0.2 =
-Minor fixes 
+Minor fixes
 -carzine_theme_functions.php updated.
 -undefined variable $class removed.
 = 1.0.3 =
@@ -108,3 +108,5 @@ Fixed Image Size
 - better sanitization of inputs
 = 1.3.3 =
 - Changed hardcoded daytime to get_option(date_format)
+= 1.4.3 =
+- Updated compatibility with WordPress 5.7.
