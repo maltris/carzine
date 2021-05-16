@@ -34,10 +34,12 @@ Text Domain: carzine
 @font-face {
   font-family: 'Open Sans Regular';
   src: url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
-  src: url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix')
-      format('embedded-opentype'),
+  src: url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff2')
+      format('woff2'),
     url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff')
       format('woff'),
+    url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
     url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf')
       format('truetype'),
     url('./web_fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular')
@@ -48,10 +50,12 @@ Text Domain: carzine
 @font-face {
   font-family: 'Open Sans Light';
   src: url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.eot');
-  src: url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix')
-      format('embedded-opentype'),
+  src: url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.woff2')
+      format('woff2'),
     url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.woff')
       format('woff'),
+    url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix')
+      format('embedded-opentype'),
     url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.ttf')
       format('truetype'),
     url('./web_fonts/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight')
@@ -62,10 +66,12 @@ Text Domain: carzine
 @font-face {
   font-family: 'Open Sans Semibold';
   src: url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot');
-  src: url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix')
-      format('embedded-opentype'),
+  src: url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff2')
+      format('woff2'),
     url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff')
       format('woff'),
+    url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix')
+      format('embedded-opentype'),
     url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf')
       format('truetype'),
     url('./web_fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#open_sanssemibold')
@@ -76,10 +82,12 @@ Text Domain: carzine
 @font-face {
   font-family: 'Open Sans Bold';
   src: url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
-  src: url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix')
-      format('embedded-opentype'),
+  src: url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff2')
+      format('woff2'),
     url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff')
       format('woff'),
+    url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
     url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.ttf')
       format('truetype'),
     url('./web_fonts/opensans_bold_macroman/OpenSans-Bold-webfont.svg#open_sansbold')
