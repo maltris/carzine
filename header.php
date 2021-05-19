@@ -8,6 +8,7 @@
   </head>
   <body <?php body_class(); ?>>
 
+  <?php wp_body_open(); ?>
   <?php get_template_part('theme_includes/top_date_and_social_area');?>
   <?php get_template_part('theme_includes/logo_area');?>
   <?php get_template_part('theme_includes/menu_area');?>

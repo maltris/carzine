@@ -93,7 +93,7 @@ if (!class_exists('carzine_Settings_API')) :
 
                 if (isset($section['desc']) && !empty($section['desc'])) {
                     $section['desc'] = '<div class="inside">' . $section['desc'] . '</div>';
-                    $callback = create_function('', 'echo "' . str_replace('"', '\"', $section['desc']) . '";');
+                    $callback = function() use ($section) {echo str_replace('"', '\"', $section['desc']);};
                 } else {
                     $callback = '__return_false';
                 }
